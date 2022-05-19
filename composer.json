@@ -1,0 +1,29 @@
+{
+  "name": "minituex/json-file-checker",
+  "description": "A simple tool to check your i18n translation files to make sure they are complete across all languages",
+  "type": "library",
+  "keywords": [
+    "language file checker",
+    "json checker",
+    "json comparison"
+  ],
+  "homepage": "https://github.com/minituex/json-file-checker",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sasha Schmid",
+      "role": "lead"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/minituex/json-file-checker/issues",
+    "source": "https://github.com/minituex/json-file-checker"
+  },
+  "require": {
+    "php": ">=7.4.0",
+    "ext-json": "*"
+  },
+  "bin": [
+    "bin/jcheck"
+  ]
+}
