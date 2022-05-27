@@ -15,7 +15,7 @@ Add the following to your composer.json
 After updating composer you can now use jcheck as described:
 
 ### Options
-`-b` defindes the base language. Make sure to use the exact name of the file so "en" for en.json and "En" for En.json
+`-b` defines the base language. Make sure to use the exact name of the file so "en" for en.json and "En" for En.json
 `-d` the directory in which the language files are located.
 
 **Example**
@@ -32,7 +32,7 @@ keys by file.
 ### CI/CD
 
 This script was intended for CI/CD integration. The quickest way is to define a composer script calling jcheck and then
-calling this composer script from your CI/CD yaml but you can also call jcheck directly in your CI/CD.
+calling this composer script from your CI/CD yaml, but you can also call jcheck directly in your CI/CD.
 
 ### Limitations
 
