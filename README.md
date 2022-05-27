@@ -20,14 +20,19 @@ After updating composer you can now use jcheck as described:
 
 **Example**
 
-`jcheck -d frontend/asset/i18n/ -b en`
+`php vendor/minituex/json-file-checker/src/jcheck.php -d frontend/asset/i18n/ -b en`
 
 ### Output
 
-No ouput means you files are all correct, no keys are missing. 
+No output means you files are all correct, no keys are missing. 
 
 If there are keys missing, the script will exit with code 1 and print a list of
 keys by file.
+
+### CI/CD
+
+This script was intended for CI/CD integration. The quickest way is to define a composer script calling jcheck and then
+calling this composer script from your CI/CD yaml but you can also call jcheck directly in your CI/CD.
 
 ### Limitations
 
